@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C7E917224E87AFD0098CA90 /* Brum_Eco_RacingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E917124E87AFD0098CA90 /* Brum_Eco_RacingApp.swift */; };
+		1C7E917424E87AFD0098CA90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E917324E87AFD0098CA90 /* ContentView.swift */; };
+		1C7E917624E87B000098CA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7E917524E87B000098CA90 /* Assets.xcassets */; };
+		1C7E917924E87B000098CA90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7E917824E87B000098CA90 /* Preview Assets.xcassets */; };
+		1C7E918424E87B010098CA90 /* Brum_Eco_RacingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E918324E87B010098CA90 /* Brum_Eco_RacingTests.swift */; };
+		1C7E918F24E87B010098CA90 /* Brum_Eco_RacingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7E918E24E87B010098CA90 /* Brum_Eco_RacingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C7E918024E87B010098CA90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C7E916624E87AFD0098CA90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C7E916D24E87AFD0098CA90;
+			remoteInfo = "Brum Eco Racing";
+		};
+		1C7E918B24E87B010098CA90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C7E916624E87AFD0098CA90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C7E916D24E87AFD0098CA90;
+			remoteInfo = "Brum Eco Racing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C7E916E24E87AFD0098CA90 /* Brum Eco Racing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brum Eco Racing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7E917124E87AFD0098CA90 /* Brum_Eco_RacingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brum_Eco_RacingApp.swift; sourceTree = "<group>"; };
+		1C7E917324E87AFD0098CA90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C7E917524E87B000098CA90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C7E917824E87B000098CA90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C7E917A24E87B000098CA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C7E917F24E87B010098CA90 /* Brum Eco RacingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brum Eco RacingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7E918324E87B010098CA90 /* Brum_Eco_RacingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brum_Eco_RacingTests.swift; sourceTree = "<group>"; };
+		1C7E918524E87B010098CA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C7E918A24E87B010098CA90 /* Brum Eco RacingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brum Eco RacingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7E918E24E87B010098CA90 /* Brum_Eco_RacingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brum_Eco_RacingUITests.swift; sourceTree = "<group>"; };
+		1C7E919024E87B010098CA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C7E916B24E87AFD0098CA90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7E917C24E87B010098CA90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7E918724E87B010098CA90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C7E916524E87AFD0098CA90 = {
+			isa = PBXGroup;
+			children = (
+				1C7E917024E87AFD0098CA90 /* Brum Eco Racing */,
+				1C7E918224E87B010098CA90 /* Brum Eco RacingTests */,
+				1C7E918D24E87B010098CA90 /* Brum Eco RacingUITests */,
+				1C7E916F24E87AFD0098CA90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C7E916F24E87AFD0098CA90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C7E916E24E87AFD0098CA90 /* Brum Eco Racing.app */,
+				1C7E917F24E87B010098CA90 /* Brum Eco RacingTests.xctest */,
+				1C7E918A24E87B010098CA90 /* Brum Eco RacingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C7E917024E87AFD0098CA90 /* Brum Eco Racing */ = {
+			isa = PBXGroup;
+			children = (
+				1C7E917124E87AFD0098CA90 /* Brum_Eco_RacingApp.swift */,
+				1C7E917324E87AFD0098CA90 /* ContentView.swift */,
+				1C7E917524E87B000098CA90 /* Assets.xcassets */,
+				1C7E917A24E87B000098CA90 /* Info.plist */,
+				1C7E917724E87B000098CA90 /* Preview Content */,
+			);
+			path = "Brum Eco Racing";
+			sourceTree = "<group>";
+		};
+		1C7E917724E87B000098CA90 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1C7E917824E87B000098CA90 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1C7E918224E87B010098CA90 /* Brum Eco RacingTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C7E918324E87B010098CA90 /* Brum_Eco_RacingTests.swift */,
+				1C7E918524E87B010098CA90 /* Info.plist */,
+			);
+			path = "Brum Eco RacingTests";
+			sourceTree = "<group>";
+		};
+		1C7E918D24E87B010098CA90 /* Brum Eco RacingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C7E918E24E87B010098CA90 /* Brum_Eco_RacingUITests.swift */,
+				1C7E919024E87B010098CA90 /* Info.plist */,
+			);
+			path = "Brum Eco RacingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C7E916D24E87AFD0098CA90 /* Brum Eco Racing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7E919324E87B010098CA90 /* Build configuration list for PBXNativeTarget "Brum Eco Racing" */;
+			buildPhases = (
+				1C7E916A24E87AFD0098CA90 /* Sources */,
+				1C7E916B24E87AFD0098CA90 /* Frameworks */,
+				1C7E916C24E87AFD0098CA90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brum Eco Racing";
+			productName = "Brum Eco Racing";
+			productReference = 1C7E916E24E87AFD0098CA90 /* Brum Eco Racing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C7E917E24E87B010098CA90 /* Brum Eco RacingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7E919624E87B010098CA90 /* Build configuration list for PBXNativeTarget "Brum Eco RacingTests" */;
+			buildPhases = (
+				1C7E917B24E87B010098CA90 /* Sources */,
+				1C7E917C24E87B010098CA90 /* Frameworks */,
+				1C7E917D24E87B010098CA90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C7E918124E87B010098CA90 /* PBXTargetDependency */,
+			);
+			name = "Brum Eco RacingTests";
+			productName = "Brum Eco RacingTests";
+			productReference = 1C7E917F24E87B010098CA90 /* Brum Eco RacingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C7E918924E87B010098CA90 /* Brum Eco RacingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7E919924E87B010098CA90 /* Build configuration list for PBXNativeTarget "Brum Eco RacingUITests" */;
+			buildPhases = (
+				1C7E918624E87B010098CA90 /* Sources */,
+				1C7E918724E87B010098CA90 /* Frameworks */,
+				1C7E918824E87B010098CA90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C7E918C24E87B010098CA90 /* PBXTargetDependency */,
+			);
+			name = "Brum Eco RacingUITests";
+			productName = "Brum Eco RacingUITests";
+			productReference = 1C7E918A24E87B010098CA90 /* Brum Eco RacingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C7E916624E87AFD0098CA90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1C7E916D24E87AFD0098CA90 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					1C7E917E24E87B010098CA90 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 1C7E916D24E87AFD0098CA90;
+					};
+					1C7E918924E87B010098CA90 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 1C7E916D24E87AFD0098CA90;
+					};
+				};
+			};
+			buildConfigurationList = 1C7E916924E87AFD0098CA90 /* Build configuration list for PBXProject "Brum Eco Racing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C7E916524E87AFD0098CA90;
+			productRefGroup = 1C7E916F24E87AFD0098CA90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C7E916D24E87AFD0098CA90 /* Brum Eco Racing */,
+				1C7E917E24E87B010098CA90 /* Brum Eco RacingTests */,
+				1C7E918924E87B010098CA90 /* Brum Eco RacingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C7E916C24E87AFD0098CA90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7E917924E87B000098CA90 /* Preview Assets.xcassets in Resources */,
+				1C7E917624E87B000098CA90 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7E917D24E87B010098CA90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7E918824E87B010098CA90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C7E916A24E87AFD0098CA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7E917424E87AFD0098CA90 /* ContentView.swift in Sources */,
+				1C7E917224E87AFD0098CA90 /* Brum_Eco_RacingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7E917B24E87B010098CA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7E918424E87B010098CA90 /* Brum_Eco_RacingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7E918624E87B010098CA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7E918F24E87B010098CA90 /* Brum_Eco_RacingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C7E918124E87B010098CA90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C7E916D24E87AFD0098CA90 /* Brum Eco Racing */;
+			targetProxy = 1C7E918024E87B010098CA90 /* PBXContainerItemProxy */;
+		};
+		1C7E918C24E87B010098CA90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C7E916D24E87AFD0098CA90 /* Brum Eco Racing */;
+			targetProxy = 1C7E918B24E87B010098CA90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C7E919124E87B010098CA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C7E919224E87B010098CA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C7E919424E87B010098CA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Brum Eco Racing/Preview Content\"";
+				DEVELOPMENT_TEAM = 68CGCDRGA9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Brum Eco Racing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Brum-Eco-Racing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C7E919524E87B010098CA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Brum Eco Racing/Preview Content\"";
+				DEVELOPMENT_TEAM = 68CGCDRGA9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Brum Eco Racing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Brum-Eco-Racing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C7E919724E87B010098CA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68CGCDRGA9;
+				INFOPLIST_FILE = "Brum Eco RacingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Brum-Eco-RacingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brum Eco Racing.app/Brum Eco Racing";
+			};
+			name = Debug;
+		};
+		1C7E919824E87B010098CA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68CGCDRGA9;
+				INFOPLIST_FILE = "Brum Eco RacingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Brum-Eco-RacingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brum Eco Racing.app/Brum Eco Racing";
+			};
+			name = Release;
+		};
+		1C7E919A24E87B010098CA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68CGCDRGA9;
+				INFOPLIST_FILE = "Brum Eco RacingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Brum-Eco-RacingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brum Eco Racing";
+			};
+			name = Debug;
+		};
+		1C7E919B24E87B010098CA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68CGCDRGA9;
+				INFOPLIST_FILE = "Brum Eco RacingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Brum-Eco-RacingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Brum Eco Racing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C7E916924E87AFD0098CA90 /* Build configuration list for PBXProject "Brum Eco Racing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7E919124E87B010098CA90 /* Debug */,
+				1C7E919224E87B010098CA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C7E919324E87B010098CA90 /* Build configuration list for PBXNativeTarget "Brum Eco Racing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7E919424E87B010098CA90 /* Debug */,
+				1C7E919524E87B010098CA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C7E919624E87B010098CA90 /* Build configuration list for PBXNativeTarget "Brum Eco RacingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7E919724E87B010098CA90 /* Debug */,
+				1C7E919824E87B010098CA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C7E919924E87B010098CA90 /* Build configuration list for PBXNativeTarget "Brum Eco RacingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7E919A24E87B010098CA90 /* Debug */,
+				1C7E919B24E87B010098CA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C7E916624E87AFD0098CA90 /* Project object */;
+}
